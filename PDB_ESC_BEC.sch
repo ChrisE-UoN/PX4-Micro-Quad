@@ -7722,6 +7722,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <junction x="-170.18" y="10.16"/>
 <pinref part="U$2" gate="-CAN_GND" pin="S"/>
 <wire x1="-147.32" y1="10.16" x2="-147.32" y2="17.78" width="0.1524" layer="91"/>
+<junction x="-170.18" y="15.24"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
@@ -8024,7 +8025,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <segment>
 <pinref part="TP3" gate="G$1" pin="P$1"/>
 <wire x1="-27.94" y1="15.24" x2="-30.48" y2="15.24" width="0.1524" layer="91"/>
-<label x="-40.64" y="15.24" size="1.778" layer="95"/>
+<label x="-38.1" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="PORTA_H" pin="PA14"/>
@@ -8032,18 +8033,11 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <label x="-345.44" y="-68.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="JDTI" class="0">
-<segment>
-<pinref part="TP2" gate="G$1" pin="P$1"/>
-<wire x1="-27.94" y1="7.62" x2="-30.48" y2="7.62" width="0.1524" layer="91"/>
-<label x="-38.1" y="7.62" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="JTDO" class="0">
 <segment>
 <pinref part="TP1" gate="G$1" pin="P$1"/>
 <wire x1="-27.94" y1="0" x2="-30.48" y2="0" width="0.1524" layer="91"/>
-<label x="-40.64" y="0" size="1.778" layer="95"/>
+<label x="-38.1" y="0" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="PORTB_L" pin="PB3"/>
@@ -8298,6 +8292,11 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <pinref part="IC1" gate="PORTA_H" pin="PA15"/>
 <wire x1="-332.74" y1="-71.12" x2="-337.82" y2="-71.12" width="0.1524" layer="91"/>
 <label x="-345.44" y="-71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TP2" gate="G$1" pin="P$1"/>
+<wire x1="-27.94" y1="7.62" x2="-30.48" y2="7.62" width="0.1524" layer="91"/>
+<label x="-38.1" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC_3V_1" class="0">
