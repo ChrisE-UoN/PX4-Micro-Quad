@@ -10,8 +10,6 @@ The PDB and BEC portion include a 3.7v -> 5v lipo booster converter (TPS61200) w
 
 Programming of the STM32 will be done with the use of pogo-pins, as the pads on the PCB are low profile and light (two essential qualities of micro-quad avionics).
 
-I will upload everything to this git repository - https://github.com/ChrisE-UoN/PX4-Micro-Quad
-
 I am still working on these designs and any feedback (or the pointing out of obvious flaws) is greatly appreciated.
 
-P.S. The data sheet says that programming to System Memory is done through USART1 however it also suggests that JTAG/SWD programming is possible. Ideally, as I'm familiar with JTAG, I'd like to opt for the pogo-pins programming method.
+P.S. The data sheet ( http://www.farnell.com/datasheets/1952113.pdf ) says that programming to System Memory is done through USART1 however it also suggests that JTAG/SWD programming is possible. Ideally, as I'm familiar with JTAG, I'd like to opt for the pogo-pins programming method.
