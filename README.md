@@ -1,6 +1,8 @@
 # PX4-Micro-Quad
 A PX4 compliant Micro Quadrotor designed for autonomous MAV research.
 
+(This repo is no longer under development)
+
 1/04/2016 (Not an April foools joke -_-):
 
 The new design has been made with Altium Designer and is found in the "Rev2.7z" folder.
